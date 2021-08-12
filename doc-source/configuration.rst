@@ -614,7 +614,8 @@ Enironment Variables
 
 .. envvar:: CHECK_README
 
-	Setting this to ``0`` disables the optional README validation feature, which checks the README will render correctly on PyPI.
+	Setting this to ``0`` disables the optional README validation feature,
+	which checks the README will render correctly on PyPI.
 
 .. envvar:: SOURCE_DATE_EPOCH
 
@@ -622,7 +623,7 @@ Enironment Variables
 	1970-01-01 UTC, and document the value you used.
 	On Unix systems, you can get a value for the current time by running:
 
-	.. code-block:: bash
+	.. prompt:: bash
 
 		date +%s
 
