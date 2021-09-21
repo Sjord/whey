@@ -8,8 +8,6 @@ Custom builders must be registered as an entry point in the ``whey.builder`` gro
 
 .. code-block:: TOML
 
-	# pyproject.toml
-
 	[project.entry-points."whey.builder"]
 	whey_sdist = "whey.builder:SDistBuilder"
 	whey_wheel = "whey.builder:WheelBuilder"
